@@ -2,10 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int number = 5;
+        int number = 1;
 
-        if (number >= 5) {
-            System.out.println("number는 0보다 큽니다.");
+        if (number > 0) {
+            System.out.println("number는 양수입니다.");
+        } else if (number < 0) {
+            System.out.println("number는 음수입니다.");
+        } else {
+            System.out.println("number는 0입니다.");
         }
     }
 }
