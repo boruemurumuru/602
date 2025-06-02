@@ -2,12 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int a = 10, b = 3;
+        int number = 5;
 
-        System.out.println(a++);
-        System.out.println(a);
-
-        System.out.println(b--);
-        System.out.println(b);
+        if (number > 0) {
+            System.out.println("number는 0보다 큽니다.");
+        }
     }
 }
